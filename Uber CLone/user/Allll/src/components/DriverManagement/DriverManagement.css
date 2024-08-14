@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* Styling for the main heading */
+.driver-management h1 {
+  text-align: center;
+  font-size: 36px; /* Font size */
+  width: 100%;
+  font-family: 'Montserrat', sans-serif; /* Stylish font */
+  background: linear-gradient(90deg, rgb(245, 242, 242) 0%, rgb(42, 10, 223) 50%, rgb(238, 236, 236) 100%); /* Gradient background */
+  color: white; /* Text color */
+  padding: 15px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  text-transform: uppercase; /* Uppercase letters */
+  letter-spacing: 1.5px; /* Increased letter spacing */
+}
+
+.driver-management h2 {
+  color: #55db17;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.driver-management h3 {
+  color: #f50c0c;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Overall container for the driver management component */
+.driver-management {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #cdcfd6;
+}
+
+
+
+/* Container for the driver table */
+.table-container {
+  width: 96%; /* Full width of the container */
+  margin-bottom: 3.5rem; /* Space below the table */
+}
+
+.view-more-btn {
+  display: block;
+  margin: 20px auto; /* Centered horizontally */
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 150px;
+  color: white;
+  background-color: #0d290a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-more-btn:hover {
+  background-color: #08220c;
+}
+
+/* Container for the statistics section */
+.statistics {
+  width: 100%; /* Full width */
+  height: auto; /* Automatic height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem; /* Space above the section */
+}
+
+/* Container for holding both charts side by side */
+.charts-container {
+  display: flex;
+  justify-content: space-around; /* Space around the charts */
+  width: 100%; /* Full width */
+  max-width: 1000px; /* Maximum width */
+  height: auto; /* Automatic height */
+  gap: 20px; /* Space between the charts */
+  margin-top: 20px; /* Space above the charts */
+}
+
+/* Individual chart box styling */
+.chart-box {
+  flex: 1; /* Flexbox property to distribute space equally */
+  margin: 1rem; /* Margin around each chart box */
+  padding: 1rem; /* Padding inside each chart box */
+  border: 1px solid #ccc; /* Border around each chart box */
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for a subtle 3D effect */
+  background-color: white; /* Background color */
+  min-width: 45%; /* Minimum width for better spacing */
+}
+
+/* Centered heading for each chart */
+.chart-box h3 {
+  text-align: center; /* Centered text alignment */
+}

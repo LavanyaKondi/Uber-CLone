@@ -1,0 +1,31 @@
+.userSidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.userSidebar .s1, .userSidebar .s2, .userSidebar .s3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.iconn {
+    width: 24px;  /* Adjusted width */
+    height: 24px; /* Adjusted height */
+    color: grey;
+}
+
+/* Optional: add some styling for the span */
+.userSidebar span {
+    font-size: 16px;  /* Adjust font size if needed */
+    color: black;
+}
+.userSidebar .s1:hover{
+    background-color:rgb(246,246,245) ;
+    border: 5px;
+    cursor: pointer;
+    color: gray;
+}

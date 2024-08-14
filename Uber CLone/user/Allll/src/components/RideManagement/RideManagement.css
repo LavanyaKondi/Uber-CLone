@@ -1,0 +1,108 @@
+/* RideManagement.css */
+
+.ride-management {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #d1d6ec;
+}
+
+
+/* Styling for the main heading */
+.ride-management h1 {
+    text-align: center;
+    font-size: 36px; /* Font size */
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; /* Stylish font */
+    background: linear-gradient(90deg, rgb(245, 242, 242) 0%, rgb(14, 25, 185) 50%, rgb(238, 236, 236) 100%); /* Gradient background */
+    color: white; /* Text color */
+    padding: 15px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 1.5px; /* Increased letter spacing */
+  }
+  
+.ride-management section {
+    margin: 20px 0;
+}
+
+.ride-management h2 {
+    color: #0d290a;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.view-more-btn {
+    display: block;
+    margin: 10px auto; /* Centered horizontally */
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 150px;
+    color: white;
+    background-color: #0d290a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #0e3614;
+  }
+
+.table-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+.image-container {
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px; /* Adjust as needed to align vertically */
+    height: 680px;
+    width: 700px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

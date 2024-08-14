@@ -1,0 +1,19 @@
+/* src/components/PaymentPage/PaymentPage.css */
+.payment-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .payment-page h1, .payment-page h2 {
+    color: #2c3e50;
+  }
+  
+  .payment-page p, .payment-page li, .payment-page ol {
+    color: #34495e;
+  }
+  
+  .payment-page a {
+    color: #3498db;
+    text-decoration: underline;
+  }
+  
